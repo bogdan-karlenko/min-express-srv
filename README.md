@@ -1,10 +1,10 @@
 # min-express-server
 
-  This app accepts admin/admin in a login form and redirects to /admin.html
+  This app allows to register users and login if user exists.
 
-   Otherwise it returns "401 Unauthorised" error.
+   App uses MongoDB to store user data.
 
-   This is to work with requests and responses in ExpressJS.
+   This is to work with ExpressJS.
 
    Run: http://35.177.44.184:8880/
 
