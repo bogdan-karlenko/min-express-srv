@@ -3,15 +3,18 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+var mongo = require('mongodb');
+
 var index = require('./routes/index');
-var login = require('./routes/login');
 
 var app = express();
 
 var port = 8880;
 
 app.use('/', index);
-app.use('/login', login);
+app.use('/login', require('./routes/login'));
+app.use('/admin', require('./routes/admin'));
+app.use('/register', require('./routes/register'));
 
 app.use(express.static(path.join(__dirname, 'public')));
 

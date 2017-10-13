@@ -1,0 +1,989 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"app.get(name)"
+			],
+			[
+				"form",
+				"form-signin"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"border",
+				"border-left"
+			],
+			[
+				"align",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"b",
+				"black"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"$route",
+				"$routeParams\tAngularJS"
+			],
+			[
+				"$ro",
+				"$routeParams\tAngularJS"
+			],
+			[
+				"ng-v",
+				"ng-view\tAngularJS"
+			],
+			[
+				"http",
+				"$httpBackend\tAngularJS"
+			],
+			[
+				"film",
+				"filmList"
+			],
+			[
+				"be",
+				"be\tbeforeEach"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"exp",
+				"expect"
+			],
+			[
+				"user",
+				"userList"
+			],
+			[
+				"Use",
+				"Users"
+			],
+			[
+				"to",
+				"toBeDefined"
+			],
+			[
+				"Us",
+				"Users"
+			],
+			[
+				"u",
+				"userList"
+			],
+			[
+				"set",
+				"setTimer"
+			],
+			[
+				"ra",
+				"randomFood"
+			],
+			[
+				"key",
+				"keypressed"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"stats",
+				"statsDraw"
+			],
+			[
+				"case",
+				"case"
+			],
+			[
+				"td",
+				"td\tTag"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"main",
+				"mainWidth"
+			],
+			[
+				"un",
+				"undefined"
+			],
+			[
+				"chek",
+				"checkField"
+			],
+			[
+				"check",
+				"checkField"
+			],
+			[
+				"ed",
+				"endOfCycle"
+			],
+			[
+				"pick",
+				"pickRandomPiece"
+			],
+			[
+				"draw",
+				"drawField"
+			],
+			[
+				"left",
+				"left"
+			],
+			[
+				"random",
+				"randomPiece"
+			],
+			[
+				"dot",
+				"dotSize"
+			],
+			[
+				"mai",
+				"mainHeight"
+			],
+			[
+				"do",
+				"dotSize"
+			],
+			[
+				"find",
+				"findEdges"
+			],
+			[
+				"CURR",
+				"currentPiece"
+			],
+			[
+				"cu",
+				"currentPiece"
+			],
+			[
+				"edges",
+				"findEdges"
+			],
+			[
+				"ede",
+				"edges"
+			],
+			[
+				"current",
+				"currentPiece"
+			],
+			[
+				"n",
+				"now"
+			],
+			[
+				"fin",
+				"findPiece"
+			],
+			[
+				"curre",
+				"currentPiece"
+			],
+			[
+				"getE",
+				"getElementById"
+			],
+			[
+				"curr",
+				"currentPiece"
+			],
+			[
+				"pi",
+				"pickRandomPiece"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"str",
+				"stroke"
+			],
+			[
+				"fill",
+				"fillStyle"
+			],
+			[
+				"stro",
+				"strokeStyle"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"sty",
+				"fillStyle"
+			],
+			[
+				"clo",
+				"closePath"
+			],
+			[
+				"fil",
+				"fill"
+			],
+			[
+				"li",
+				"lineTo"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"borde",
+				"border-spacing"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"c",
+				"canvas\tTag"
+			],
+			[
+				"property",
+				"propertyCounter"
+			],
+			[
+				"deepEqua",
+				"deepEqualComparison"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 580,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "routes/login.js",
+			"settings":
+			{
+				"buffer_size": 538,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "read",
+		"selected_items":
+		[
+			[
+				"read",
+				"ReadmePlease"
+			],
+			[
+				"pi",
+				"Package Control: Install Package"
+			],
+			[
+				"package  re",
+				"Package Control: Remove Package"
+			],
+			[
+				"readme",
+				"ReadmePlease"
+			],
+			[
+				"ip",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"readm",
+				"ReadmePlease"
+			],
+			[
+				"boxy",
+				"Boxy Theme: Configuration"
+			],
+			[
+				"htm",
+				"HTMLBeautify"
+			],
+			[
+				"rea",
+				"ReadmePlease"
+			],
+			[
+				"package control",
+				"Package Control: List Packages"
+			],
+			[
+				"jrd",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"PI",
+				"Package Control: Install Package"
+			],
+			[
+				"pcip",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"prefere",
+				"Preferences: Settings"
+			],
+			[
+				"browser",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			]
+		],
+		"width": 502.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"clear"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/GitHub/min-express-srv",
+		"/D/GitHub/min-express-srv/routes"
+	],
+	"file_history":
+	[
+		"/D/GitHub/min-koajs-server/index.html",
+		"/D/GitHub/min-express-srv/README.md",
+		"/D/GitHub/simple-node-server/README.md",
+		"/D/GitHub/min-express-srv/middleware-ex.js",
+		"/D/GitHub/min-express-srv/public/js/login.js",
+		"/D/GitHub/min-express-srv/routes/login.js",
+		"/D/GitHub/min-express-srv/public/css/bootstrap.min.css",
+		"/D/GitHub/min-express-srv/routes/admin.js",
+		"/D/GitHub/min-express-srv/public/index.html",
+		"/D/GitHub/min-express-srv/app.js",
+		"/C/Users/Opposite/AppData/Roaming/Sublime Text 3/Packages/Express Completion/readme.md",
+		"/C/Users/Opposite/AppData/Roaming/Sublime Text 3/Packages/ExpressComplete/README.md",
+		"/D/GitHub/min-express-srv/routes/index.js",
+		"/D/GitHub/simple-node-server/app/index.html",
+		"/D/GitHub/simple-express-srv/public/index.html",
+		"/D/GitHub/simple-express-srv/routes/index.js",
+		"/D/GitHub/min-express-srv/package.json",
+		"/D/GitHub/simple-express-srv/bin/www",
+		"/D/GitHub/simple-express-srv/app.js",
+		"/D/GitHub/simple-express-srv/package.json",
+		"/D/GitHub/simple-node-server/app/admin.html",
+		"/D/GitHub/simple-node-server/app/js/login.js",
+		"/D/GitHub/simple-node-server/main.js",
+		"/D/GitHub/simple-node-server/server/serve-rest.js",
+		"/D/GitHub/simple-node-server/app/js/bootstrap.js",
+		"/D/GitHub/simple-node-server/app/css/bootstrap.css",
+		"/D/GitHub/tim-burton-filmography/src/film-detail/film-detail.template.html",
+		"/D/GitHub/tim-burton-filmography/src/film-list/film-list.template.html",
+		"/D/GitHub/tim-burton-filmography/src/film-list/film-list.component.js",
+		"/D/GitHub/tim-burton-filmography/src/film-detail/film-detail.component.js",
+		"/D/GitHub/tim-burton-filmography/src/main.css",
+		"/D/GitHub/tim-burton-filmography/index.html",
+		"/D/GitHub/tim-burton-filmography/src/films/films.json",
+		"/D/GitHub/tim-burton-filmography/src/films/miss-peregrines-home-for-peculiar-children.json",
+		"/D/GitHub/tim-burton-filmography/src/films/tim-burtons-the-nightmare-before-christmas.json",
+		"/D/GitHub/tim-burton-filmography/src/films/frankenweenie.json",
+		"/D/GitHub/tim-burton-filmography/src/films/mars-attacks.json",
+		"/D/GitHub/tim-burton-filmography/src/films/james-and-the-giant-peach.json",
+		"/D/GitHub/tim-burton-filmography/src/films/ed-wood.json",
+		"/D/GitHub/tim-burton-filmography/src/films/dark-shadows.json",
+		"/D/GitHub/tim-burton-filmography/src/films/tim-burtons-corpse-bride.json",
+		"/D/GitHub/tim-burton-filmography/src/films/sweeney-todd-the-demon-barber-of-fleet-street.json",
+		"/D/GitHub/tim-burton-filmography/src/films/sleepy-hollow.json",
+		"/D/GitHub/tim-burton-filmography/src/films/planet-of-the-apes.json",
+		"/D/GitHub/tim-burton-filmography/src/films/charlie-and-the-chocolate-factory.json",
+		"/D/GitHub/tim-burton-filmography/src/app.module.js",
+		"/D/GitHub/tim-burton-filmography/src/films/cabin-boy.json",
+		"/D/GitHub/tim-burton-filmography/src/films/big-fish.json",
+		"/D/GitHub/tim-burton-filmography/src/films/big-eyes.json",
+		"/D/GitHub/tim-burton-filmography/src/films/batman-returns.json",
+		"/D/GitHub/tim-burton-filmography/karma.conf.js",
+		"/D/GitHub/tim-burton-filmography/src/film-detail/film-detail.component.spec.js",
+		"/D/GitHub/tim-burton-filmography/src/films/9.json",
+		"/D/GitHub/tim-burton-filmography/src/films/batman.json",
+		"/D/GitHub/tim-burton-filmography/src/films/edward-scissorhands.json",
+		"/D/GitHub/tim-burton-filmography/src/films/beetlejuice.json",
+		"/D/GitHub/tim-burton-filmography/src/films/pee-wees-big-adventure.json",
+		"/D/GitHub/tim-burton-filmography/src/films/alice-through-the-looking-glass.json",
+		"/D/GitHub/tim-burton-filmography/src/films/batman-forever.json",
+		"/D/GitHub/tim-burton-filmography/src/films/alice-in-wonderland.json",
+		"/D/GitHub/tim-burton-filmography/src/films/abraham-lincoln-vampire-hunter.json",
+		"/D/GitHub/angular-phonecat/app/app.css",
+		"/D/GitHub/tim-burton-filmography/src/app.config.js",
+		"/D/GitHub/tim-burton-filmography/src/film-detail/film-detail.module.js",
+		"/D/GitHub/tim-burton-filmography/src/film-list/film-list.spec.js",
+		"/D/GitHub/angular-phonecat/app/index.html",
+		"/D/GitHub/angular-phonecat/app/phone-list/phone-list.component.spec.js",
+		"/D/GitHub/testing-angular-karma-jasmine/karma.conf.js",
+		"/D/GitHub/tim-burton-filmography/src/film-list/film-list.module.js",
+		"/D/GitHub/tim-burton-filmography/src/app.js",
+		"/D/GitHub/tim-burton-filmography/README.md",
+		"/D/GitHub/tim-burton-filmography/.gitignore",
+		"/D/GitHub/angular-phonecat/app/core/phone/phone.module.js",
+		"/D/GitHub/angular-phonecat/app/core/core.module.js",
+		"/D/GitHub/angular-phonecat/app/phone-list/phone-list.module.js",
+		"/D/GitHub/angular-phonecat/app/app.module.js",
+		"/D/GitHub/angular-phonecat/app/phones/phones.json",
+		"/D/GitHub/tim-burton-filmography/src/listCtrl/film-list.spec.js",
+		"/D/GitHub/tim-burton-filmography/src/listCtrl/film-list.template.html",
+		"/D/GitHub/angular-phonecat/app/phone-list/phone-list.component.js",
+		"/D/GitHub/angular-phonecat/app/phones/dell-streak-7.json",
+		"/D/GitHub/tim-burton-filmography/src/films/Alice in Wonderland.json",
+		"/D/GitHub/tim-burton-filmography/src/films/Pee-wee's Big Adventure.json",
+		"/D/GitHub/tim-burton-filmography/src/films/Batman Forever.json",
+		"/D/GitHub/tim-burton-filmography/src/films/Batman Returns.json",
+		"/D/GitHub/tim-burton-filmography/src/films/Batman.json",
+		"/D/GitHub/tim-burton-filmography/src/films/Beetlejuice.json",
+		"/D/GitHub/tim-burton-filmography/src/films/Big Eyes.json",
+		"/D/GitHub/tim-burton-filmography/src/films/Big Fish.json",
+		"/D/GitHub/tim-burton-filmography/src/films/Cabin Boy.json",
+		"/D/GitHub/tim-burton-filmography/src/films/Charlie and the Chocolate Factory.json",
+		"/D/GitHub/tim-burton-filmography/src/films/Dark Shadows.json",
+		"/D/GitHub/tim-burton-filmography/src/films/Ed Wood.json",
+		"/D/GitHub/tim-burton-filmography/src/films/Edward Scissorhands.json",
+		"/D/GitHub/tim-burton-filmography/src/films/Frankenweenie.json",
+		"/D/GitHub/tim-burton-filmography/src/films/James and the Giant Peach.json",
+		"/D/GitHub/tim-burton-filmography/src/films/Mars Attacks!.json",
+		"/D/GitHub/tim-burton-filmography/src/films/Miss Peregrine's Home for Peculiar Children.json",
+		"/D/GitHub/tim-burton-filmography/src/films/Planet of the Apes.json",
+		"/D/GitHub/tim-burton-filmography/src/films/Sleepy Hollow.json",
+		"/D/GitHub/tim-burton-filmography/src/films/Sweeney Todd - The Demon Barber of Fleet Street.json",
+		"/D/GitHub/tim-burton-filmography/src/films/Tim Burton's Corpse Bride.json",
+		"/D/GitHub/tim-burton-filmography/src/films/Tim Burton's The Nightmare Before Christmas.json",
+		"/D/GitHub/tim-burton-filmography/src/films/Sweeney Todd: The Demon Barber of Fleet Street.json",
+		"/D/GitHub/testing-angular-karma-jasmine/index.html",
+		"/D/GitHub/testing-angular-karma-jasmine/app/app.js",
+		"/D/GitHub/testing-angular-karma-jasmine/app/services/users/users.spec.js",
+		"/D/GitHub/testing-angular-karma-jasmine/app/services/users/users.js",
+		"/D/GitHub/testing-angular-karma-jasmine/README.md",
+		"/C/Users/Opposite/AppData/Roaming/Sublime Text 3/Packages/Jasmine JS/README.md",
+		"/D/GitHub/testing-angular-karma-jasmine/app/main.css",
+		"/D/GitHub/testing-angular-karma-jasmine/.gitignore",
+		"/D/GitHub/testing-angular-karma-jasmine/server.js",
+		"/C/Users/Opposite/AppData/Roaming/Sublime Text 3/Packages/HTMLBeautify/README.md",
+		"/C/Users/Opposite/AppData/Roaming/Sublime Text 3/Packages/JsFormat/README.md",
+		"/C/Users/Opposite/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/D/GitHub/javascript-snake/src/js/main-test.js",
+		"/D/GitHub/javascript-snake/src/index.html",
+		"/C/Users/Opposite/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/D/GitHub/javascript-snake/src/js/gamelogic.js",
+		"/C/Users/Opposite/AppData/Roaming/Sublime Text 3/Packages/JSON Reindent/README.md",
+		"/D/GitHub/javascript-tetris/scripts/tetris.js",
+		"/D/GitHub/javascript-snake/.gitignore",
+		"/D/GitHub/javascript-snake/test/SpecRunner.html",
+		"/D/GitHub/javascript-snake/node_modules/lodash/_charsStartIndex.js",
+		"/D/GitHub/angular-phonecat/app/app.js",
+		"/D/GitHub/angular-phonecat/app/app.spec.js",
+		"/D/GitHub/angular-phonecat/app/phone-list/phone-list.template.html"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+			"D:\\GitHub\\simple-node-server",
+			"simple-node-server"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"600px",
+			"qs",
+			"Navigated to",
+			"POST",
+			"ajax",
+			"click",
+			"submit",
+			"click",
+			"on-click",
+			"listener",
+			"btn-lg",
+			"submit",
+			"big",
+			"border",
+			"before",
+			"specs",
+			"released",
+			"\"name\": \"\",",
+			"'",
+			"this.",
+			"Game",
+			"in ",
+			"eof",
+			"dotSize",
+			"height",
+			"width",
+			"mainHeight",
+			"mainWidth",
+			"drawfield",
+			"drawGrid",
+			"5",
+			"esc",
+			"checkField",
+			"linesOut",
+			"step",
+			"reload",
+			"console",
+			"mainHeight",
+			"endof",
+			";\n",
+			"endofcy",
+			"GameCy",
+			" in ",
+			"in",
+			"quotes",
+			"extends",
+			"'xo'",
+			"xo",
+			"pickRandomPiece",
+			"rotstage",
+			"findpi",
+			"rotStage",
+			"console.log",
+			"console",
+			"mainHei",
+			"mainWi",
+			"dotsize",
+			"drawPieceAt",
+			"draw",
+			"consol",
+			"piece in",
+			"drawpieceat",
+			"color",
+			"DIR",
+			"}",
+			"sign up",
+			"button"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"details",
+			"year",
+			"\"name\": \"\", \"released\":\"\",",
+			"\"",
+			"",
+			"Game.prototype",
+			"this.dotSize",
+			"this.height",
+			"this.width",
+			"height",
+			"width",
+			"drawPiece"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 580,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								264,
+								264
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "routes/login.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 538,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								538,
+								538
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 48.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 357.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/js.sublime-build",
+	"project": "min-express-srv.sublime-project",
+	"replace":
+	{
+		"height": 94.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gamelo",
+				"javascript-snake\\src\\js\\gamelogic.js"
+			],
+			[
+				"index",
+				"javascript-snake\\src\\index.html"
+			],
+			[
+				"brow",
+				"javascript-snake\\node_modules\\util-deprecate\\browser.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\GitHub\\javascript-snake\\javascript-snake.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 732.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 306.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
