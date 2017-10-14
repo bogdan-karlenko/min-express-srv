@@ -8,7 +8,7 @@ var bcrypt = require('bcrypt');
 var saltRounds = 10;
 
 router.get('/', function(req, res, next) {
-  res.sendFile(path.join(__dirname, '../public', 'register.html'));
+  res.sendFile(path.join(__dirname, '../public/html', 'register.html'));
 });
 
 router.post('/newuser', function(req, res, next) {
@@ -57,12 +57,15 @@ router.post('/newuser', function(req, res, next) {
         var pwd = req.body.password;
 
         //check for user exists
-        collection.findOne({
+        collection.count({
           username: usr
         }, function(err, doc) {
           if (err) {
             console.log(err);
-          } else if (!doc) {
+          } else if (doc !== 0) {
+            console.log('User already exists');
+            db.close();
+          } else {
 
             //adding user
             //password hashing
@@ -77,13 +80,22 @@ router.post('/newuser', function(req, res, next) {
                   console.log('Write error: ', err);
                 } else {
                   console.log('Write sucessful');
+
+                  //requesting new user info
+                  collection.findOne({
+                    username: usr
+                  }, function(err, doc) {
+                    if (err) {
+                      console.log(err);
+                    } else {
+                      console.log(doc);
+                    }
+                  });
+
                   db.close();
                 }
               })
             });
-          } else {
-            console.log('User already exists');
-            db.close();
           }
         })
       }
@@ -91,7 +103,7 @@ router.post('/newuser', function(req, res, next) {
     });
   }
 
-  res.redirect('/');
+  res.redirect('/login');
 });
 
 module.exports = router;

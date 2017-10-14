@@ -5,6 +5,10 @@ var path = require('path');
 var mongodb = require('mongodb');
 var bcrypt = require('bcrypt');
 
+router.get('/', function(req, res) {
+  res.sendFile(path.join(__dirname, '../public/html', 'login.html'));
+});
+
 router.post('/', function(req, res) {
 
   //form validation
@@ -55,7 +59,7 @@ router.post('/', function(req, res) {
                 if (doc.role === 'admin') {
                   res.redirect('/admin');
                 } else {
-                  res.redirect('/home');
+                  res.redirect('/profile');
                 }
               } else {
                 res.sendStatus(401);

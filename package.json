@@ -1,0 +1,31 @@
+{
+  "name": "min-express-srv",
+  "version": "1.0.0",
+  "description": "This app allows to register users and login if user exists.",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "bootstrap": "^3.3.7",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "express-validator": "^4.2.1",
+    "kerberos": "^0.0.23",
+    "mongodb": "^2.2.33",
+    "passport": "^0.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bogdan-karlenko/min-express-srv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bogdan-karlenko/min-express-srv/issues"
+  },
+  "homepage": "https://github.com/bogdan-karlenko/min-express-srv#readme"
+}

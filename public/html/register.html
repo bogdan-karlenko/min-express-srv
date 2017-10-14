@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../favicon.ico">
+  <title>min-express-srv</title>
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/cover.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="site-wrapper">
+    <div class="site-wrapper-inner">
+      <div class="cover-container">
+        <div class="masthead clearfix">
+          <div class="inner">
+            <h3 class="masthead-brand">min-express-srv</h3>
+            <nav class="nav nav-masthead">
+              <a class="nav-link" href="/">Home</a>
+              <a class="nav-link" href="/login">Login</a>
+              <a class="nav-link active" href="/register">Register</a>
+              <a class="nav-link" href="/profile">Profile</a>
+            </nav>
+          </div>
+        </div>
+        <div class="inner cover">
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+              <div class="row">
+                <div class="col-xs-12">
+                  <form id="loginForm" method="POST" action="register/newuser/">
+                    <div class="form-group">
+                      <label for="username" class="control-label">Username</label>
+                      <input type="text" class="form-control" id="username" name="username" value="" required="" title="Please enter you username" placeholder="Username">
+                      <span class="help-block"></span>
+                    </div>
+                    <div class="form-group">
+                      <label for="email" class="control-label">E-mail</label>
+                      <input type="email" class="form-control" id="email" name="email" value="" required="" title="Please enter you e-mail" placeholder="example@gmail.com">
+                      <span class="help-block"></span>
+                    </div>
+                    <div class="form-group">
+                      <label for="password" class="control-label">Password</label>
+                      <input type="password" class="form-control" id="password" name="password" value="" required="" title="Please enter your password" placeholder="Password">
+                      <span class="help-block"></span>
+                      <!-- <label for="passwordMatch" class="control-label"></label> -->
+                      <input type="password" class="form-control" id="passwordMatch" name="passwordMatch" value="" required="" title="Please re-enter your password" placeholder="Password">
+                      <span class="help-block"></span>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-8 col-sm-offset-2">
+                        <button type="submit" class="btn btn-success btn-block">Submit</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mastfoot">
+          <div class="inner">
+            <p>Kyiv, 2017</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+      <script>
+        window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+      <script src="js/bootstrap.min.js"></script>
+    </body>
+
+    </html>
