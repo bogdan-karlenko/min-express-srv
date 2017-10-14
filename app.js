@@ -22,8 +22,8 @@ app.use(expressValidator());
 app.use('/', index);
 app.use('/login', require('./routes/login'));
 app.use('/admin', require('./routes/admin'));
-app.use('/register/', require('./routes/register'));
-app.use('/home/', require('./routes/home'));
+app.use('/register', require('./routes/register'));
+app.use('/home', require('./routes/home'));
 
 app.use(express.static(path.join(__dirname, 'public')));
 

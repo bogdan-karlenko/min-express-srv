@@ -2,7 +2,10 @@ var express = require('express');
 var router = express.Router();
 var bodyParser = require('body-parser');
 var path = require('path');
-var mongodb = require('mongodb')
+var mongodb = require('mongodb');
+var bcrypt = require('bcrypt');
+
+var saltRounds = 10;
 
 router.get('/', function(req, res, next) {
   res.sendFile(path.join(__dirname, '../public', 'register.html'));
@@ -10,6 +13,7 @@ router.get('/', function(req, res, next) {
 
 router.post('/newuser', function(req, res, next) {
 
+  //form validation
   req.checkBody('username', 'Username field cannot be empty.').notEmpty();
   req.checkBody('username', 'Username must be between 4-15 characters long.').len(4, 15);
   req.checkBody('email', 'The email you entered is invalid, please try again.').isEmail();
@@ -36,6 +40,7 @@ router.post('/newuser', function(req, res, next) {
     //res.redirect('/');
   } else {
 
+    //if form validated - database connection
     var MongoClient = mongodb.MongoClient;
     var url = 'mongodb://localhost:27017/min-express-srv';
 
@@ -51,6 +56,7 @@ router.post('/newuser', function(req, res, next) {
         var email = req.body.email;
         var pwd = req.body.password;
 
+        //check for user exists
         collection.findOne({
           username: usr
         }, function(err, doc) {
@@ -58,20 +64,23 @@ router.post('/newuser', function(req, res, next) {
             console.log(err);
           } else if (!doc) {
 
-            collection.insert({
-              username: usr,
-              email: email,
-              password: pwd,
-              role: 'user'
-            }, function(err) {
-              if (err) {
-                console.log('Write error: ', err);
-              } else {
-                console.log('Write sucessful');
-                db.close();
-              }
-            })
-
+            //adding user
+            //password hashing
+            bcrypt.hash(pwd, saltRounds, function(err, hash) {
+              collection.insert({
+                username: usr,
+                email: email,
+                password: hash,
+                role: 'user'
+              }, function(err) {
+                if (err) {
+                  console.log('Write error: ', err);
+                } else {
+                  console.log('Write sucessful');
+                  db.close();
+                }
+              })
+            });
           } else {
             console.log('User already exists');
             db.close();
