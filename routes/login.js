@@ -5,6 +5,10 @@ var path = require('path');
 var mongodb = require('mongodb');
 var bcrypt = require('bcrypt');
 
+//Authentification Packages
+var session = require('express-session');
+var passport = require('passport');
+
 router.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, '../public/html', 'login.html'));
 });
@@ -52,15 +56,19 @@ router.post('/', function(req, res) {
             db.close();
           } else {
 
+            var user_id = doc._id;
+
             //password verification
             bcrypt.compare(req.body.password, doc.password, function(err, result) {
               // res == true
               if (result) {
-                if (doc.role === 'admin') {
-                  res.redirect('/admin');
-                } else {
-                  res.redirect('/profile');
-                }
+                req.login(user_id, function(err) {
+                  if (doc.role === 'admin') {
+                    res.redirect('/admin');
+                  } else {
+                    res.redirect('/profile');
+                  }
+                })
               } else {
                 res.sendStatus(401);
               }
@@ -73,5 +81,15 @@ router.post('/', function(req, res) {
 
   }
 })
+passport.serializeUser(function(user_id, done) {
+  done(null, user_id);
+});
+
+passport.deserializeUser(function(user_id, done) {
+  //  User.findById(id, function(err, user) {
+  done(null, user_id);
+  // });
+});
+
 
 module.exports = router;

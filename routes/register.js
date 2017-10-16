@@ -5,6 +5,10 @@ var path = require('path');
 var mongodb = require('mongodb');
 var bcrypt = require('bcrypt');
 
+//Authentification Packages
+var session = require('express-session');
+var passport = require('passport');
+
 var saltRounds = 10;
 
 router.get('/', function(req, res, next) {
@@ -88,7 +92,11 @@ router.post('/newuser', function(req, res, next) {
                     if (err) {
                       console.log(err);
                     } else {
-                      console.log(doc);
+                      console.log('id: ', doc._id);
+                      var user_id = doc._id;
+                      req.login(user_id, function(err) {
+                        res.redirect('/profile');
+                      })
                     }
                   });
 
@@ -99,11 +107,20 @@ router.post('/newuser', function(req, res, next) {
           }
         })
       }
-
     });
   }
 
-  res.redirect('/login');
+  // res.redirect('/login');
+});
+
+passport.serializeUser(function(user_id, done) {
+  done(null, user_id);
+});
+
+passport.deserializeUser(function(user_id, done) {
+//  User.findById(id, function(err, user) {
+    done(null, user_id);
+  // });
 });
 
 module.exports = router;
