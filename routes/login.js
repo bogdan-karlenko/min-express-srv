@@ -9,9 +9,9 @@ var bcrypt = require('bcrypt');
 var session = require('express-session');
 var passport = require('passport');
 
-router.get('/', function(req, res) {
-  res.sendFile(path.join(__dirname, '../public/html', 'login.html'));
-});
+// router.get('/', function(req, res) {
+//   res.sendFile(path.join(__dirname, '../public/html', 'index.html'));
+// });
 
 router.post('/', function(req, res) {
 

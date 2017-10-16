@@ -43,6 +43,10 @@ app.use('/profile', require('./routes/profile'));
 
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.get('*', function(req, res) {
+  res.sendFile(path.join(__dirname, 'public/html', 'index.html'));
+})
+
 app.listen(port, function() {
   console.log('\n--------------------\nServer is running\n');
   console.log('http://localhost:' + port);

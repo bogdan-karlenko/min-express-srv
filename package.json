@@ -4,6 +4,8 @@
   "description": "This app allows to register users and login if user exists.",
   "main": "app.js",
   "dependencies": {
+    "angular": "^1.6.6",
+    "angular-route": "^1.6.6",
     "bcrypt": "^1.0.3",
     "bootstrap": "^3.3.7",
     "cookie-parser": "^1.4.3",

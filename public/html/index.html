@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="min-express-srv-app">
 
 <head>
   <meta charset="utf-8">
@@ -7,11 +7,16 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" href="../favicon.ico">
+  <base href="/" />
   <title>min-express-srv</title>
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="css/cover.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-resource.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+  <script src="../js/app.js"></script>
 </head>
 
 <body>
@@ -29,20 +34,9 @@
             </nav>
           </div>
         </div>
-        <div class="inner cover">
-          <h2 class="cover-heading">Wellcome!</h2>
-          <p class="lead">min-express-srv is a place, where you can create users and log in!</p>
-          <p class="lead">If you already registered or know existing username and password somehow, please log in.</p>
-          <p class="lead">Choose wisely:</p>
-          <div class="row">
-            <div class="col-sm-5 col-sm-offset-1">
-              <a href="/login" class="btn btn-block btn-success col-sm-5">Log In</a>
-            </div>
-            <div class="col-sm-5">
-              <a href="/register" class="btn btn-block btn-secondary col-sm-5">Sign Up</a>
-            </div>
-          </div>
-        </div>
+
+        <div ng-view></div>
+
         <div class="mastfoot">
           <div class="inner">
             <p>Kyiv, 2017</p>

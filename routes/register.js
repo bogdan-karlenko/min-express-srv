@@ -11,9 +11,9 @@ var passport = require('passport');
 
 var saltRounds = 10;
 
-router.get('/', function(req, res, next) {
-  res.sendFile(path.join(__dirname, '../public/html', 'register.html'));
-});
+// router.get('/', function(req, res, next) {
+//   res.sendFile(path.join(__dirname, '../public/html', 'register.html'));
+// });
 
 router.post('/newuser', function(req, res, next) {
 
