@@ -7,13 +7,12 @@ var bcrypt = require('bcrypt');
 
 //Authentification Packages
 var session = require('express-session');
-var passport = require('passport');
 
 // router.get('/', function(req, res) {
 //   res.sendFile(path.join(__dirname, '../public/html', 'index.html'));
 // });
 
-router.post('/', function(req, res) {
+router.post('/user', function(req, res) {
 
   //form validation
   req.checkBody('username', 'Username field cannot be empty.').notEmpty();
@@ -29,7 +28,9 @@ router.post('/', function(req, res) {
       console.log(error.msg);
       msg += error.msg;
     });
+    res.sendStatus(401);
     res.send('errors: ' + msg);
+
     //res.redirect('/');
   } else {
 
@@ -52,7 +53,7 @@ router.post('/', function(req, res) {
             console.log('Find error: ', err);
           } else if (!doc) {
             console.log('User not found');
-            res.redirect('/register');
+            res.sendStatus(404);
             db.close();
           } else {
 
@@ -60,18 +61,21 @@ router.post('/', function(req, res) {
 
             //password verification
             bcrypt.compare(req.body.password, doc.password, function(err, result) {
-              // res == true
+              // result == true/false
               if (result) {
-                req.login(user_id, function(err) {
-                  if (doc.role === 'admin') {
-                    res.redirect('/admin');
-                  } else {
-                    res.redirect('/profile');
-                  }
-                })
+                console.log('login result: ', doc);
+                res.send(doc);
+                // req.login(user_id, function(err) {
+                //   if (doc.role === 'admin') {
+                //     res.redirect('/admin');
+                //   } else {
+                //     res.redirect('/profile');
+                //   }
+                // })
               } else {
                 res.sendStatus(401);
               }
+
             });
             db.close();
           }
@@ -81,15 +85,15 @@ router.post('/', function(req, res) {
 
   }
 })
-passport.serializeUser(function(user_id, done) {
-  done(null, user_id);
-});
+// passport.serializeUser(function(user_id, done) {
+//   done(null, user_id);
+// });
 
-passport.deserializeUser(function(user_id, done) {
-  //  User.findById(id, function(err, user) {
-  done(null, user_id);
-  // });
-});
+// passport.deserializeUser(function(user_id, done) {
+//   //  User.findById(id, function(err, user) {
+//   done(null, user_id);
+//   // });
+// });
 
 
 module.exports = router;
